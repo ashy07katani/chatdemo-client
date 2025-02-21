@@ -36,7 +36,7 @@ func main() {
 	for {
 		var input string
 		if usernameFlag {
-			fmt.Println("Enter message to send: ")
+			fmt.Println("Use `/msg <receiver> <message>` to send privately or just type a message to send to everyone: ")
 		} else {
 			usernameFlag = true
 		}
